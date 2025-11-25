@@ -1,0 +1,11 @@
+# Ignore the large model file
+models/*.gguf
+*.gguf
+
+# Ignore the vector database (it's too large and can be regenerated)
+data/vector_store/
+
+# Ignore python cache
+__pycache__/
+*.pyc# Auto detect text files and perform LF normalization
+* text=auto
