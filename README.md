@@ -22,7 +22,7 @@ This system is specifically optimized to run on **CPU-only machines**, making it
 ```
                     ┌─────────────────────────────────────────────────┐
                     │              Sanskrit Documents                 │
-                    │  (docx, txt, pdf → processed into text chunks) │
+                    │  (docx, txt, pdf → processed into text chunks)  │
                     └─────────────────────────────────────────────────┘
                                       │
                                       ▼
@@ -34,7 +34,7 @@ This system is specifically optimized to run on **CPU-only machines**, making it
                                       ▼
                   ┌──────────────────────────────────────────┐
                   │   Embeddings Model (HuggingFace)         │
-                  │   → Generates vector representation       │
+                  │   → Generates vector representation      │
                   └──────────────────────────────────────────┘
                                       │
                                       ▼
