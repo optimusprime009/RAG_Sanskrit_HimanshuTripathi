@@ -256,7 +256,6 @@ rm -rf data/vector_store/*
 python code/ingest.py
 ```
 
----
 
 ## 👨‍💻 10. Intern Details
 
