@@ -1,0 +1,12 @@
+services:
+  rag-app:
+    build: .
+    image: sanskrit-rag:cpu
+    container_name: sanskrit_rag_container
+    # Mount local folders to the container so data persists
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    # Enable interactive mode (Crucial for CLI apps)
+    stdin_open: true 
+    tty: true
