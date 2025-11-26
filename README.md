@@ -2,8 +2,6 @@
 ### **CPU-Optimized RAG for Classical Sanskrit Text Understanding**  
 Fully Dockerized • CPU-Friendly • Supports Sanskrit + English Queries
 
----
-
 ## 🧭 1. Introduction
 
 Understanding Sanskrit literature requires contextual comprehension, classical grammar knowledge, and careful interpretation. This project solves that challenge using a **Retrieval-Augmented Generation (RAG)** pipeline that:
@@ -15,11 +13,8 @@ Understanding Sanskrit literature requires contextual comprehension, classical g
 
 This system is fully optimized for **CPU-only inference**, allowing anyone to run it without needing a GPU.
 
----
 
 ## 🏗️ 2. System Architecture
-
-```
 
 ```
             ┌─────────────────────────────────────────────────┐
@@ -63,10 +58,6 @@ This system is fully optimized for **CPU-only inference**, allowing anyone to ru
                  📝 Final Answer to User
 ```
 
-````
-
----
-
 ## ⚡ 3. Key Features
 
 ### ✔ CPU-Optimized  
@@ -87,7 +78,6 @@ Fast, small, accurate model for classical literature tasks.
 ### ✔ Persistent Vector Store (ChromaDB)  
 Efficient semantic retrieval for large Sanskrit documents.
 
----
 
 ## 📂 4. Repository Structure (Expanded)
 
@@ -117,7 +107,6 @@ RAG_Sanskrit_Himanshu_Tripathi/
 └── README.md
 ````
 
----
 
 ## 🧪 5. Theory Behind the System
 
@@ -128,7 +117,6 @@ RAG = **Retrieval + Generation**
 Instead of relying on the LLM to “know everything,” the system retrieves relevant parts of the document and then generates an answer *grounded* in those retrieved chunks.
 This prevents hallucinations and keeps answers accurate.
 
----
 
 ### 5.2 Why Phi-3 Mini?
 
@@ -141,7 +129,7 @@ This prevents hallucinations and keeps answers accurate.
 
 This makes it ideal for embedded/offline Sanskrit NLP.
 
----
+
 
 ### 5.3 Embeddings
 
@@ -153,7 +141,6 @@ sentence-transformers/all-mpnet-base-v2
 
 Provides excellent multilingual performance, including Sanskrit.
 
----
 
 ## ⚙️ 6. Native Installation Guide (Python)
 
@@ -204,7 +191,6 @@ Then type your queries, for example:
 How did the servant carry the sugar?
 ```
 
----
 
 ## 🐳 7. Docker Deployment (Recommended)
 
@@ -234,7 +220,6 @@ You will see the CLI:
 >> Enter Query (English/Sanskrit):
 ```
 
----
 
 ## 📊 8. Example Output
 
@@ -249,8 +234,6 @@ the sugar leaked out along the road.
 "शर्कराम् जीर्णे वस्त्रे न्यस्यति च ।
  तस्मात् जीर्णवस्त्रात् मार्गे एव सर्वापि शर्करा स्त्रवति ।"
 ```
-
----
 
 ## 🛠️ 9. Troubleshooting
 
@@ -277,9 +260,9 @@ python code/ingest.py
 
 ## 👨‍💻 10. Intern Details
 
-**Name:** *Himanshu Tripathi*
-**Project:** AI/ML Internship — Sanskrit RAG System
-**Institute:** Birla Institute of Technology, Noida
+**Name:** Himanshu Tripathi  
+**Project:** AI/ML Internship — Sanskrit RAG System  
+**Institute:** Birla Institute of Technology, Noida  
 **Date:** November 2025
 
 ---
